@@ -2,22 +2,19 @@
     --cor-fundo: #01080E ;
     --cor-principal: #0B0D20 ;
     --cor-secundaria: #212333; 
-    --cor-destaque: #2BDEFD;
+    --cor-destaque: red;
     --cor-texto: #D7F9FF;
 
 }
 
-body{
+body {
     background-color: var(--cor-fundo);
-    background-image: url(img.jpg);
-    
-    background-repeat: no-repeat;
-    back
     color: var(--cor-texto);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    font-size: 15px;
     
 }
 
@@ -27,6 +24,7 @@ body{
     max-width: 600px;
     text-align: center;
     padding: 20px;
+    font-size: 15px;
 }
 
 h1{
